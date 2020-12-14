@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,400;1,900&display=swap");
+
+body {
+  color: white;
+  background-image: linear-gradient(to right, #000000, #303030);
+  font-family: "Texturina", serif;
+  overflow-x: hidden;
+}
+
+#header h1 {
+  font-size: 4em;
+  text-shadow: #303030 2px 2px;
+}
+
+#main {
+  margin-top: 3%;
+  width: max-content;
+  opacity: 1;
+}
+
+#main h2 {
+  font-size: 3.5em;
+  text-shadow: #303030 2px 2px;
+  text-decoration: underline #505050;
+}
+
+#main p {
+  font-size: 2.6em;
+  text-shadow: #303030 2px 2px;
+}
+
+button {
+  background: none;
+}
+
+#previous a,
+#next a {
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+#previous a:hover {
+  text-shadow: #303030 2px 2px;
+}
+
+#next a:hover {
+  text-shadow: #000000 2px 2px;
+}
+
+#previous {
+  position: absolute;
+  left: 25px;
+  top: 40%;
+}
+
+#next {
+  position: absolute;
+  right: 25px;
+  top: 40%;
+}
